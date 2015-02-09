@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		AC5A9C5E1A69D7B5004D773A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A9C5D1A69D7B5004D773A /* AppDelegate.swift */; };
-		AC5A9C601A69D7B5004D773A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A9C5F1A69D7B5004D773A /* ViewController.swift */; };
+		AC5A9C601A69D7B5004D773A /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A9C5F1A69D7B5004D773A /* FirstTableViewController.swift */; };
 		AC5A9C631A69D7B5004D773A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5A9C611A69D7B5004D773A /* Main.storyboard */; };
 		AC5A9C651A69D7B5004D773A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5A9C641A69D7B5004D773A /* Images.xcassets */; };
 		AC5A9C681A69D7B5004D773A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC5A9C661A69D7B5004D773A /* LaunchScreen.xib */; };
 		AC5A9C741A69D7B5004D773A /* TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A9C731A69D7B5004D773A /* TableViewTests.swift */; };
+		AC5A9C7E1A69D9EF004D773A /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A9C7D1A69D9EF004D773A /* SecondTableViewController.swift */; };
+		AC5A9C801A69DB1E004D773A /* SecondTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A9C7F1A69DB1E004D773A /* SecondTable.swift */; };
+		AC5A9C821A69E0AC004D773A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A9C811A69E0AC004D773A /* ViewController.swift */; };
+		AC5A9C841A69E1FD004D773A /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A9C831A69E1FD004D773A /* ThirdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +33,17 @@
 		AC5A9C581A69D7B5004D773A /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5A9C5C1A69D7B5004D773A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC5A9C5D1A69D7B5004D773A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC5A9C5F1A69D7B5004D773A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC5A9C5F1A69D7B5004D773A /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
 		AC5A9C621A69D7B5004D773A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC5A9C641A69D7B5004D773A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AC5A9C671A69D7B5004D773A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AC5A9C6D1A69D7B5004D773A /* TableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5A9C721A69D7B5004D773A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC5A9C731A69D7B5004D773A /* TableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTests.swift; sourceTree = "<group>"; };
+		AC5A9C7D1A69D9EF004D773A /* SecondTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
+		AC5A9C7F1A69DB1E004D773A /* SecondTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTable.swift; sourceTree = "<group>"; };
+		AC5A9C811A69E0AC004D773A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		AC5A9C831A69E1FD004D773A /* ThirdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +85,12 @@
 		AC5A9C5A1A69D7B5004D773A /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				AC5A9C811A69E0AC004D773A /* ViewController.swift */,
 				AC5A9C5D1A69D7B5004D773A /* AppDelegate.swift */,
-				AC5A9C5F1A69D7B5004D773A /* ViewController.swift */,
+				AC5A9C5F1A69D7B5004D773A /* FirstTableViewController.swift */,
+				AC5A9C831A69E1FD004D773A /* ThirdView.swift */,
+				AC5A9C7F1A69DB1E004D773A /* SecondTable.swift */,
+				AC5A9C7D1A69D9EF004D773A /* SecondTableViewController.swift */,
 				AC5A9C611A69D7B5004D773A /* Main.storyboard */,
 				AC5A9C641A69D7B5004D773A /* Images.xcassets */,
 				AC5A9C661A69D7B5004D773A /* LaunchScreen.xib */,
@@ -212,7 +224,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC5A9C601A69D7B5004D773A /* ViewController.swift in Sources */,
+				AC5A9C821A69E0AC004D773A /* ViewController.swift in Sources */,
+				AC5A9C801A69DB1E004D773A /* SecondTable.swift in Sources */,
+				AC5A9C7E1A69D9EF004D773A /* SecondTableViewController.swift in Sources */,
+				AC5A9C601A69D7B5004D773A /* FirstTableViewController.swift in Sources */,
+				AC5A9C841A69E1FD004D773A /* ThirdView.swift in Sources */,
 				AC5A9C5E1A69D7B5004D773A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,7 +354,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TableView;
 			};
 			name = Debug;
 		};
@@ -348,7 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TableView;
 			};
 			name = Release;
 		};
@@ -366,7 +382,7 @@
 				);
 				INFOPLIST_FILE = TableViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TableViewTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableView.app/TableView";
 			};
 			name = Debug;
@@ -381,7 +397,7 @@
 				);
 				INFOPLIST_FILE = TableViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TableViewTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableView.app/TableView";
 			};
 			name = Release;
@@ -405,6 +421,7 @@
 				AC5A9C791A69D7B5004D773A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC5A9C7A1A69D7B5004D773A /* Build configuration list for PBXNativeTarget "TableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +430,7 @@
 				AC5A9C7C1A69D7B5004D773A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

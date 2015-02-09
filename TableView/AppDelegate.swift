@@ -2,9 +2,7 @@
 //  AppDelegate.swift
 //  TableView
 //
-//  Created by Jared Davidson on 1/16/15.
-//  Copyright (c) 2015 Archetapp. All rights reserved.
-//
+
 
 import UIKit
 
